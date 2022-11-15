@@ -1,0 +1,170 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;  
+  }
+  
+  /* Element Selectors */
+  body {
+    position: relative;
+    font-family: "fantasy";
+    font-size: 20px;
+    background-color: #4c3c75;
+    color: #ffffff;
+
+  }
+  
+  h1{
+    margin: 1%;
+display: flex;
+background-color: #000000;
+padding: 1%;
+position: absolute;
+
+
+  }
+
+  img{
+    display: flex;
+width: 25%;
+height: 55%;
+background-color: #fefefe;
+margin: 2%;
+padding: 1%;
+  }
+
+  figcaption{
+display: flex;
+margin-left: 2%;
+background-color: #b82c2c;
+width: 75%;
+
+  }
+.flex-container{
+  padding: 2%;
+  background-color: aqua;
+  display: flex;
+  clear: both;
+float: right;
+}
+
+  h3 {
+    margin: 5%;
+    display: flex;
+    background-color: #4c3c75;
+    width: 400px; 
+      padding: 50px;
+      margin-left: 75%;
+  }
+  
+  main {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 60px 0;
+   background-color: rgb(34, 19, 75);
+  }
+  
+  li {
+    display: inline;
+    padding: 1px 20px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  header,
+  footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #4c3c75;
+    
+  }
+  
+  header {
+    position: fixed;
+    border-bottom: 10px solid #000064;
+    width: 400px; 
+      padding: 2%;
+      margin-left: 76%;
+  }
+  
+  footer {
+    position: flex;
+    margin-top: 1%;
+    bottom: 1%;
+    border-bottom: 10% solid #000064;
+    color: #fefefe;   
+   
+  }
+  
+  figure {
+    margin-bottom: 40px;
+  }
+  
+  img {
+    display: block;
+    margin: 2.5%;
+  }
+  
+  section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #ffffff;
+    background-color:  #140c28;
+  }
+  
+  form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+    
+  input, 
+  textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #ffffff;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 60px;
+  }
+    
+  button {
+    height: 40px;
+    width: 120px;
+    background-color: #140c28;
+    color: #ffffff;
+  }
+   
+  /* Class Selectors */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  
+  
+  @media screen and (max-width: 992px) {
+    * {
+      width: 50%;
+    }
+  }
+    
+  
