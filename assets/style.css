@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    padding: 20px;
+    padding: 34px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #650089;
     color: #ffffff;
@@ -142,11 +142,12 @@ h6 {
 }
 
 
-.footer {
+.about-footer {
   padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
+  color: azure;
 }
 
 .footer h2 {
@@ -154,10 +155,13 @@ h6 {
 }
 
 @media screen and (max-width: 992px) {
-  .ul {
-    width: 50%;
+  .education img {
+    width: 100%;
   }
-
+.about-me img, .about-family img, .about-hobby img {
+  width: 80%;
+  height: ;
+}
   header {
     background: #772014;
   }
@@ -168,8 +172,8 @@ h6 {
   .ul {
     width: 100%;
   }
+}
 
-  header {
-    background: #8ac4ff;
-  }
+@media screen and (max-width: 992px){
+  .
 }
