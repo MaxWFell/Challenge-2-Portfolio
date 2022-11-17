@@ -1,170 +1,175 @@
-/* Universal Selector */
 * {
-    margin:0;
-    padding:0;  
-  }
-  
-  /* Element Selectors */
-  body {
-    position: relative;
-    font-family: "fantasy";
-    font-size: 20px;
-    background-color: #4c3c75;
-    color: #ffffff;
-
-  }
-  
-  h1{
-    margin: 1%;
-display: flex;
-background-color: #000000;
-padding: 1%;
-position: absolute;
-
-
-  }
-
-  img{
-    display: flex;
-width: 25%;
-height: 55%;
-background-color: #fefefe;
-margin: 2%;
-padding: 1%;
-  }
-
-  figcaption{
-display: flex;
-margin-left: 2%;
-background-color: #b82c2c;
-width: 75%;
-
-  }
-.flex-container{
-  padding: 2%;
-  background-color: aqua;
-  display: flex;
-  clear: both;
-float: right;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-  h3 {
-    margin: 5%;
-    display: flex;
-    background-color: #4c3c75;
-    width: 400px; 
-      padding: 50px;
-      margin-left: 75%;
-  }
-  
-  main {
-   display: flex;
-   flex-wrap: wrap;
-   padding: 60px 0;
-   background-color: rgb(34, 19, 75);
-  }
-  
-  li {
-    display: inline;
-    padding: 1px 20px;
-    text-decoration: none;
-  }
-  
-  a {
-    text-decoration: none;
+body {
+    background-color: #1b005a;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #650089;
     color: #ffffff;
-  }
-  
-  header,
-  footer {
-    height: 60px;
-    width: 100%;
-    line-height: 60px;
-    background-color: #4c3c75;
-    
-  }
-  
-  header {
-    position: fixed;
-    border-bottom: 10px solid #000064;
-    width: 400px; 
-      padding: 2%;
-      margin-left: 76%;
-  }
-  
-  footer {
-    position: flex;
-    margin-top: 1%;
-    bottom: 1%;
-    border-bottom: 10% solid #000064;
-    color: #fefefe;   
-   
-  }
-  
-  figure {
-    margin-bottom: 40px;
-  }
-  
-  img {
-    display: block;
-    margin: 2.5%;
-  }
-  
-  section {
-    margin-bottom: 0;
-    padding: 20px 10px 40px 10px;
-    border-top: 3px solid #ffffff;
-    background-color:  #140c28;
-  }
-  
-  form {
-    /* Center the form on the page */
-    margin: 0 auto;
-    width: 500px;
-    padding: 10px;
-    border: 5px solid #ffffff;
-    border-radius: 20px;
-  }
-  
-  label {
+}
+
+.header h1 {
     display: inline-block;
-    width: 100px;
-  }
-    
-  input, 
-  textarea {
-    box-sizing: border-box;
-    width: 300px;
-    border: 1px solid #ffffff;
-  }
-  
-  textarea {
-    vertical-align: top;
-    height: 60px;
-  }
-    
-  button {
-    height: 40px;
-    width: 120px;
-    background-color: #140c28;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
     color: #ffffff;
-  }
-   
-  /* Class Selectors */
-  .text-center {
-    text-align: center;
-  }
-  
-  .text-right {
-    text-align: right;
-  }
-  
-  
-  
-  @media screen and (max-width: 992px) {
-    * {
-      width: 50%;
-    }
-  }
+    text-decoration: none;
+}
+
+p {
+    font-size: 160%;
+}
+
+h6 {
+
+  font-size: 190%;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/MEPILOT.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+    max-width: 110%;
+}
+
+.content {
+    width: 71%;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.about-mes {
+    padding: 3%;
+    clear: both;
+    float: right;
+    width: 25%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #00c421;
+}
+
+.about-me, .about-family, .about-hobby {
+    margin-bottom: 32px;
+    color: #ffffff;
     
-  
+}
+
+
+.about-me h3, .about-family h3, .about-hobby h3 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 190%;
+}
+
+
+
+.about-me img, .about-family img, .about-hobby img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+
+
+.education, .my-work, .contact-me {
+  margin-bottom: 8%;
+  padding: 15%;
+  height: 9%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #ac91c2;
+  color: #ffffff;
+}
+
+
+
+
+.education img, .contact-me img {
+  max-height: 200px;
+}
+
+.my-work img{
+  max-height: 400px;
+}
+
+
+
+.education h2, .my-work h2, .contact-me h2 {
+  margin-bottom: 20px;
+  font-size: 360%;
+}
+
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .ul {
+    width: 50%;
+  }
+
+  header {
+    background: #772014;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .ul {
+    width: 100%;
+  }
+
+  header {
+    background: #8ac4ff;
+  }
+}
